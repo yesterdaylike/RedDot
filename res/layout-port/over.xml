@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@id/try_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:background="@drawable/try_again_btn"
+        android:onClick="onClickButton" />
+
+    <TextView
+        android:id="@id/summay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/try_again"
+        android:layout_marginBottom="@dimen/button_vertical_margin"
+        android:gravity="center_horizontal"
+        android:textColor="@color/color_summary"
+        android:textSize="@dimen/text_size_summary" />
+
+    <TextView
+        android:id="@id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/summay"
+        android:gravity="center_horizontal"
+        android:textColor="@color/color_title"
+        android:textSize="@dimen/text_size_title" />
+
+    <ImageView
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/message"
+        android:src="@drawable/title" />
+
+    <Button
+        android:id="@id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/try_again"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:background="@drawable/share_btn"
+        android:onClick="onClickButton" />
+
+    <Button
+        android:id="@id/leader_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:background="@drawable/leader_board_btn"
+        android:onClick="onClickButton"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/leader_board"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:background="@drawable/rate_btn"
+        android:onClick="onClickButton" />
+
+    <LinearLayout
+        android:id="@+id/ad_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+
+</RelativeLayout>

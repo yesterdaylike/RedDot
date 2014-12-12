@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="google_play_services_version">4323000</integer>
+
+    <string name="app_name">Red Dot</string>
+    <string name="try_again">Try Again</string>
+    <string name="share">Share</string>
+    <string name="leader_board">Leader Board</string>
+    <string name="rate">Rate</string>
+    <string name="best_score">Best score :</string>
+    <string name="steps">Steps you made :</string>
+    <string name="congratulations">CONGRATULATIONS</string>
+    <string name="captured">steps you captured the dot</string>
+    <string name="game_over">Game Over</string>
+    <string name="slipped">The Dot has slipped away</string>
+
+</resources>

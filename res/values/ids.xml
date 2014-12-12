@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="title">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="summay">false</item>
+    <item type="id" name="try_again">false</item>
+    <item type="id" name="share">false</item>
+    <item type="id" name="leader_board">false</item>
+    <item type="id" name="rate">false</item>
+    <item type="id" name="steps">false</item>
+    <item type="id" name="best_score">false</item>
+    <item type="id" name="reseau_view">false</item>
+    <item type="id" name="red_dot">false</item>
+</resources>

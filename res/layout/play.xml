@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title_land" />
+
+    <TextView
+        android:id="@id/steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:textColor="@color/color_title"
+        android:textSize="@dimen/text_size_title" />
+
+    <TextView
+        android:id="@id/best_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/steps"
+        android:textColor="@color/color_summary"
+        android:textSize="@dimen/text_size_title" />
+
+    <com.zwh.mimimao.reddot.ReseauView
+        android:id="@id/reseau_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <com.zwh.mimimao.reddot.DotView
+        android:id="@id/red_dot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</RelativeLayout>
